@@ -32,6 +32,6 @@ if(!_.includes(commands, cmd)) {
   return console.log("Wrong command provided");
 }
 
-if(cmd == "new") newCmd(argv, config);
-else if(cmd == "test") testCmd(argv, config);
-else if(cmd == "publish") publishCmd(argv, config);
+if(cmd == "new") newCmd(argv);
+else if(cmd == "test") testCmd(argv);
+else if(cmd == "publish") publishCmd(argv);
