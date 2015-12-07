@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "name": "rune.{name}.js",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main" : "dist/rune.{name}.node.js",
+  "files" : [ "dist" ],
+  "dependencies": {
+    "rune.js": "latest"
+  },
+  "devDependencies": {},
+  "preferGlobal": true
+}
